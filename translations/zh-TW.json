@@ -1,0 +1,199 @@
+{
+    "Order": {
+        "title": "訂單",
+        "orders": "訂單",
+        "stops": "站點",
+        "Tap to expand": "點擊展開",
+        "Tap to collapse": "點擊收起",
+        "more waypoints": "更多航點",
+        "OrderScreen": {
+            "Start Order": "開始訂單",
+            "Update Activity": "更新活動",
+            "Current Destination": "目前目的地",
+            "Change": "變更",
+            "Change destination waypoint": "改變目的地航點",
+            "Navigate": "導航",
+            "Customer": {
+                "title": "顧客",
+                "No Customer": "沒有顧客"
+            },
+            "Details": {
+                "title": "細節",
+                "Status": "狀態",
+                "Facilitator": "協調員",
+                "Driver Assigned": "分配司機",
+                "Change Driver": "更換司機",
+                "Internal ID": "內部ID",
+                "Tracking Number": "追蹤號碼",
+                "Order Type": "類型",
+                "Date Created": "創建日期",
+                "Date Scheduled": "預定日期",
+                "Date Dispatched": "已發送日期",
+                "Date Started": "開始日期"
+            },
+            "Payload": {
+                "title": "有效負載",
+                "Customer": {
+                    "title": "顧客",
+                    "No Customer": "沒有顧客"
+                },
+                "Details": {
+                    "title": "細節",
+                    "Status": "狀態",
+                    "Internal ID": "內部ID",
+                    "Tracking Number": "追蹤號碼",
+                    "Type": "類型",
+                    "Weight": "重量",
+                    "Dimensions": "尺寸",
+                    "Date Created": "創建日期",
+                    "Value": "價值",
+                    "Price": "價格",
+                    "Sales Price": "銷售價格",
+                    "Declared Value": "申報價值",
+                    "Currency": "貨幣"
+                }
+            },
+            "Notes": "註記",
+            "Documents & Files": "文件和檔案",
+            "Activity": {
+                "Confirm order activity": "確認訂單活動",
+                "Order completed": "訂單已完成",
+                "Driver has completed order": "司機已完成訂單"
+            }
+        }
+    },
+    "Account": {
+        "title": "帳戶",
+        "AccountScreen": {
+            "title": "Create an account or login",
+            "loginButtonText": "Login",
+            "createAccountButtonText": "Create Account",
+            "userGreetingTitle": "Hello, {{driverName}}",
+            "accountMenuTitle": "My Account",
+            "config": "實例配置",
+            "organization": "組織",
+            "profileLinkText": "個人資料",
+            "ordersLinkText": "Orders",
+            "placesLinkText": "Places",
+            "signoutButtonText": "登出"
+        },
+        "EditProfileScreen": {
+            "title": "你的個人資料",
+            "nameLabelText": "你的名字",
+            "emailLabelText": "您的電子郵件地址",
+            "phoneLabelText": "您的手機號碼",
+            "saveButtonText": "儲存個人資料"
+        }
+    },
+    "Auth": {
+        "LoginScreen": {
+            "title": "Login",
+            "sendVerificationCodeButtonText": "Send Verification Code",
+            "createAccountButtonText": "or Create Account",
+            "retryButtonText": "Retry?",
+            "verifyCodeButtonText": "Verify Code",
+            "codeInputPlaceholder": "Enter verification code"
+        }
+    },
+    "Core": {
+        "BootScreen": {},
+        "NetworkScreen": {},
+        "SearchScreen": {
+            "searchInputPlaceholderText": "搜尋訂單..."
+        },
+        "StorefrontScreen": {}
+    },
+    "Exceptions": {
+        "SetupWarningScreen": {
+            "title": "Configurations Missing!",
+            "subtitle": "Looks like you haven't properly configured your app.",
+            "envMissingText": "is missing from environment!"
+        }
+    },
+    "Shared": {
+        "OrderCompletedScreen": {
+            "title": "Order received!",
+            "pickupOrderFrom": "Pickup order from",
+            "orderNotes": "Order Notes",
+            "qrCode": "QR Code",
+            "orderSummary": "Order Summary",
+            "cash": "Cash",
+            "subtotal": "Subtotal",
+            "deliveryFee": "Delivery Fee",
+            "tip": "Tip",
+            "deliveryTip": "Delivery Tip",
+            "total": "Total"
+        },
+        "OrderScreen": {
+            "title": "Order {{orderStatus}}",
+            "arrivingIn": "Arriving in {{estimatedDuration}}",
+            "pickupOrderFrom": "Pickup order from",
+            "orderNotes": "Order Notes",
+            "qrCode": "QR Code",
+            "orderSummary": "Order Summary",
+            "cash": "Cash",
+            "subtotal": "Subtotal",
+            "deliveryFee": "Delivery Fee",
+            "tip": "Tip",
+            "deliveryTip": "Delivery Tip",
+            "total": "Total"
+        },
+        "ConfigScreen": {
+            "title": "實例配置",
+            "host": "Host",
+            "socket": "Socket host",
+            "port": "Socket port",
+            "reset": "重置",
+            "save": "Save"
+        }
+    },
+    "components": {
+        "interface": {
+            "headers": {
+                "DefaultHeader": {
+                    "search": "搜尋"
+                }
+            },
+            "LangPicker": {
+                "title": "選擇語言"
+            },
+            "MapPicker": {
+                "title": "Select Map",
+                "Select Navigator": "選擇導航"
+            },
+            "PhoneInput": {
+                "selectCountry": "Select Country"
+            },
+            "Date": {
+                "Monday": "週一",
+                "Tuesday": "週二",
+                "Wednesday": "週三",
+                "Thursday": "週四",
+                "Friday": "週五",
+                "Saturday": "週六",
+                "Sunday": "週日"
+            }
+        }
+    },
+
+    "terms": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "loading": "Loading...",
+        "searching": "Searching...",
+        "more": "More",
+        "sort": "Sort",
+        "filter": "Filter",
+        "date": "Date",
+        "search": "Search"
+    },
+    "status": {
+        "created": "已創建",
+        "preparing": "準備中",
+        "dispatched": "已派遣",
+        "driver_enroute": "司機在途中",
+        "pending": "待處理",
+        "in_progress": "處理中",
+        "completed": "已完成"
+    }
+}
