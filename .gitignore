@@ -89,3 +89,4 @@ android/app/google-services.json
 #
 config/app.js
 config/interface.js
+node_modules
