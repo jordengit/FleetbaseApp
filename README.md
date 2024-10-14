@@ -87,3 +87,6 @@ If you would like to make contributions to the Fleetbase Javascript SDK document
 
 ### Roadmap
  - COMING SOON
+
+
+keytool -genkeypair -v -storetype PKCS12 -keystore benzol.keystore -alias benzol -keyalg RSA -keysize 2048 -validity 10000
